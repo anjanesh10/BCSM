@@ -1,0 +1,390 @@
+/*----- Fixed Navigation Style -------*/
+
+*{margin: 0px auto;}
+body{ background: #eee;}
+
+.container{width:100%; }
+
+.container .header{ width:100%;}
+
+.container .header .fixed-header{ line-height: 75px;  width: 100%;background: #04556F;}
+
+.container .header .fixed-header a{ color: #fff;}
+
+.container .header .fixed-header .site-title{ width: 100%; text-align:center; float: left; background: inherit;}
+
+.container .header .fixed-header .site-title .brand-name 
+{    width: 300px;    float: left; }
+
+.container .header .fixed-header .site-title a{ text-decoration: none;}
+
+.container .header .fixed-header .site-navigation
+{width: 300px;float: right; background: inherit; z-index: 999;right: 0;overflow: hidden;
+    top: 0px;  height: 100%; position: absolute;display: none; overflow-y: none;}
+
+.site-navigation .fa {    padding-right: 8px; font-size: 18px;}
+
+.container .header .fixed-header .site-navigation ul{list-style: none;margin-left: -40px;}
+
+.container .header .fixed-header .site-navigation ul li{  text-align: left; width: 100%; line-height:50px;}
+
+.container .header .fixed-header .site-navigation ul li a{ text-decoration: none;  display: block; padding-left: 30px;}
+.container .header .fixed-header .site-navigation ul li a:hover{ background: #fff; color: #000;}
+
+#lines::before {
+    border-bottom: 13px double #FFF;
+    border-top: 4px solid #FFF;
+    content: "";
+    height: 5px;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    width: 30px;
+}
+.navbar 
+{    position: absolute;    top: 0;    display: inline-block;    right: 0;    margin-top: 18px;    margin-right: 20px;}
+
+#lines:: after{}
+
+/*---------------- Products Styling Starts---------------------*/
+
+.products{clear: both;background: #fbfbfb;}
+
+.products-inner{width: 80%;padding-top: 30px;padding-bottom: 30px;}
+
+.products-inner .products-heading 
+{    
+    text-align: center;    width: 300px;    border: 4px solid #055c8c;    padding: 20px 0px;    color: #055c8c;
+    border-radius: 4px;    box-shadow: 0px 0px 6px 0px #055c8c;    font-size: 1.8em;
+}
+
+.products-inner p{ width: 80%; font-size: 18px; padding-top: 10px; padding-bottom: 5px; line-height: 27px;color: #696969;}
+
+.product-images {    width: 100%;    text-align: center; }
+
+.product-images a {    text-decoration: none; color: #696969;}
+
+.product-type {  margin-top: 5px;  width: 85%;  color: #33369D;}
+
+.product-info {     display: inline-table; margin-top: 10px;text-align: center; border-radius: 6px;}
+
+.product-info img {    width: 310px; height: 250px;border-radius: 4px;box-shadow: 0px 0px 6px 0px #055c8c;text-align: center;}
+
+.product-info.change-property {   border: 2px solid #ddd; margin-left: 5px;}
+
+.product-info.change-property img{  box-shadow: none;}
+
+.product-info.change-property .description 
+{
+    padding-top: 5px;    padding-bottom: 8px;
+}
+
+/*---------------- Products Styling Ends ---------------------*/
+
+
+/*---------------- CONTACT US Starts ---------------------*/
+
+.contactus {  clear: both;  }
+
+.contactus .contactus-inner{ width: 80%;  background: #fefefe; }
+
+
+.contactus-image {    width: 100%;    height: 300px;}
+/*---------------- Header Image of contact us width & Height ---------------------*/
+
+/*------- Contact1 Styling ------------*/
+
+.contact1 {  padding-bottom: 20px;    font-size: 1.2em;    line-height: 1.3em;}
+
+.contact1 p { padding-left: 30px; padding-top: 15px;}
+
+.contact1 address {  padding-left: 30px; padding-top: 15px;  margin-top: 20px;}
+
+.contact1 b{ text-decoration: underline; padding-bottom: 5px;}
+
+/*------- Contact2 Styling ------------*/
+
+.contact2 {  padding: 30px 0px 30px 30px; text-align: center; border-top: 1px solid #eee;}
+
+.contact2 img {    height: 100px; width: 100px; margin-bottom: 10px;}
+
+.contact2 h3{padding-bottom: 10px; font-size: 20px; word-spacing: 1px;}
+
+.contact2 p {    font-size: 1.2em;}
+
+.contact2 b{ color: brown;  font-size: 1.2em;}
+
+
+/*------- Contact3 Styling ------------*/
+
+.contact3 {    padding: 30px;  border-top: 1px solid #dedede;}
+
+.contact3 .contact3-inner{ width: 70%;}
+
+.contact3 .contact3-inner h3
+{ text-align: center; margin-bottom: 10px; color: #5a5656; font-size: 22px; letter-spacing: 1px; word-spacing: 1.5px; }
+
+.contact3 #firstname 
+{ width: 100%; padding-left: 20px;margin-bottom: 5px;border-radius: 4px;border: 0.5px solid #dedede;line-height: 50px;}
+
+
+.contact3 #mail 
+{ width: 100%; padding-left: 20px; margin-bottom: 5px; border-radius: 4px; border: 0.5px solid #dedede; line-height: 50px;}
+
+.contact3 #yourmessage 
+{ width: 100%;    padding-left: 20px;    margin-bottom: 5px;    border-radius: 4px;    border: 0.5px solid #dedede;
+    padding-top: 20px;    height: 200px;    font-family: 'Arial';    font-size: 14px; }
+
+.contact3 #submit{
+   width: 250px;
+margin-bottom: 5px;
+border-radius: 4px;
+box-shadow: 0px 0px 4px 0px #42748F;
+border: 1px solid;
+text-align: center;
+background: #42748F;
+color: #fff;
+line-height: 50px;
+font-family: 'Arial', Cambria;
+font-size: 20px;
+}
+/*---------------- CONTACT US Ends ---------------------*/
+
+/*---------------- Gallery Styling Starts---------------------*/
+
+.gallery{clear: both;background: #fbfbfb;}
+
+.gallery-inner{width: 80%;padding-top: 30px;padding-bottom: 30px;text-align: center;}
+
+.gallery-inner .gallery-heading 
+{    
+    text-align: center;    width: 300px;    border: 4px solid #055c8c;    padding: 20px 0px;    color: #055c8c;
+    border-radius: 4px;    box-shadow: 0px 0px 6px 0px #055c8c;    font-size: 1.8em;
+}
+
+.gallery-box {     display: inline-block;margin-top: 10px;text-align: center;}
+
+
+.gallery-box img {    width: 300px; height: 250px;border-radius: 4px;box-shadow: 0px 0px 6px 0px #055c8c;text-align: center;}
+
+/*---------------- Gallery Styling Ends ---------------------*/
+
+
+
+
+/*-------- Slider Styling Starts ---------------------*/
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  clear: both;
+}
+
+.slideshow-container .mySlides {display:none}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #072042b3;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #3B3B3B80;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+    img{height: 450px;}
+
+/* Slider Styling Ends Here*/
+
+
+
+/* Details Of Business Starts*/
+
+#details {    clear: both; width: 100%; height: auto;text-align: center;}
+
+#details  .inner-box {    width: 85%;     padding-top: 30px; padding-bottom: 30px; text-align: center;}
+
+#details  .inner-box  .box-info 
+{   
+    display: inline-table; margin-top: 10px;text-align: left; border-radius: 4px; box-shadow: 0px 0px 6px 0px #055c8c;
+    width: 320px; margin-left: 10px; padding-bottom: 20px; height: 320px; background: #FEFEFE;
+}
+
+
+.box-info p
+{ 
+text-align: left;padding-left: 30px;padding-right: 30px;   color: #3b3b3b; word-spacing: 1.5px; line-height: 25px;
+    font-size: 1.05em; color: #696969;
+   }
+
+.box-info h2
+{ 
+    text-align: center;padding-bottom: 15px;background: #034F78;;padding-top: 15px;margin-bottom: 8px;border-top-left-radius: 4px;border-top-right-radius: 4px;color: #fff;
+}
+
+.box-info li{ list-style: none; padding-left: 40px;font-size: 1.05em; color: #696969; line-height: 25px;}
+
+.box-info p a{ color: blue;}
+
+/* Details Of Business Ends*/
+
+
+
+
+
+
+
+
+/*********  Footer Styling  ************8*/
+.footer 
+{    clear: both;  width: 100%;    background: #FEFEFE;min-height: 300px;padding-top: 30px;padding-bottom: 30px;
+    border-top: 1px solid #eee;}
+
+.footer .footerbox 
+{    width: 24%;   text-align: center; margin-left: 0.2em; background: inherit; display: inline-block;float: left;}
+
+.footer .footerbox .footer-title 
+{  color: #696969;    padding-bottom: 8px;padding-top: 8px;padding-left: 30px;}
+
+/*---- TextBox Styling Under Footer ------*/
+
+.footer .footerbox .textbox-style 
+{ 
+    width: 80%; margin-left: 30px; margin-bottom: 5px; padding-left: 10px; border-radius: 4px; border: 1px solid #dedede; line-height: 40px; 
+}
+
+
+.footer .footerbox #yourmessage
+{   height: 100px;font-family: 'Arial', cambria; font-size: 14px;}
+
+.footer .footerbox #submit
+{ background: #42748F;  color: #fff;    font-size: 18px; }
+
+/*Paragraph and List Styling in Footer*/
+
+.footer .footerbox p{    padding-left: 30px;    color: #696969; }
+
+.footer .footerbox li {    padding: 0px 10px 5px 30px; list-style: none;}
+
+.footer .footerbox li a{ color: #696969; text-decoration: none;}
+
+.footer .footerbox li a:hover{ text-decoration: underline;}
+
+/**** FOOTER ENDS ****/
+
+/*------- SOCIAL MEDIA LINKS ------------*/
+
+.socialmedia{ clear: both; width: 100%; background: #fefefe;    border-top: 1px solid #eee;}
+
+.socialmedia .socialmedia-inner{ width: 70%; text-align: center; padding-top: 10px; padding-bottom: 10px;}
+
+.socialmedia .socialmedia-inner img{ width: 30px; height: 30px; margin-left: 30px;}
+
+/*------- SOCIAL MEDIA LINKS ENDS HERE ------------*/
+
+/**** ABOUT US PAGE STYLING STARTS ****/
+
+.aboutus { clear: both;    width: 100%;    padding-top: 25px;      padding-bottom: 25px;    background: #e6eaeae6;}
+
+.aboutus .aboutus-inner {    width: 80%;    }
+
+.aboutus .aboutus-inner .aboutus-box 
+{    margin-bottom: 10px;background: #fff;box-shadow: 0px 0px 6px 0px #061778; border-radius: 4px;}
+
+.aboutus .aboutus-inner .aboutus-box h2{background: #042454;padding: 20px 40px;color: #fff;}
+
+.aboutus .aboutus-inner .aboutus-box p
+{     padding: 20px 100px;
+    margin-top: 5px;
+    text-align: justify;
+    font-size: 1.05em;
+    line-height: 1.6em;
+    color: #444;
+    word-spacing: 1px;
+}
+
+.aboutus .aboutus-inner .aboutus-box img{width: 100%;}
+
+/**** ABOUT US PAGE STYLING ENDS ****/
+
+
+/*---------------- CUSTOMER BOX Styling STARTS HERE ---------------------*/
+
+.customer{clear: both;background: #efe;}
+
+.customer .customer-inner
+{ width: 80%;padding-top: 30px;padding-bottom: 30px;}
+
+.customer .customer-inner p
+{ width: 80%; font-size: 18px; padding-top: 10px; padding-bottom: 5px; line-height: 27px;color: #696969;}
+
+.customer .customer-inner .customer-images 
+{   width: 100%;    text-align: center; }
+
+.customer .customer-inner .customer-images a 
+{    text-decoration: none; color: #696969;}
+
+.customer-info 
+{    
+    display: inline-table;  margin-top: 10px;  text-align: center; 
+    border-radius: 6px; 
+    width: 200px; 
+    margin-left: 5px;
+    border: 2px solid #ccc;
+    background: #fff;
+}
+
+.customer-info img 
+{    width: 200px; height: 200px; text-align: center; }
+
+.customer-info .description 
+{    padding-top: 5px;    padding-bottom: 8px; }
+
+.customer-info h3
+{ text-transform: uppercase; font-size: 14px;}
+
+/*---------------- CUSTOMER BOX Styling Ends ---------------------*/
